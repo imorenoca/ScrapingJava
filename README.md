@@ -17,4 +17,13 @@ Las dependencias se obtienen de la página web https://mvnrepository.com/artifac
     </dependency>
   </denpendencies>
   ```
-  
+ 
+ Realizar el ejecutable.
+
+En la carpeta del proyecto, botón derecho seleccionamos:  
+
+Java>Runnable Jar file.
+ 
+Es importante seleccionar “Package required libraries into generated JAR”.
+
+Botón derecho en el archivo y ejecutar. 
