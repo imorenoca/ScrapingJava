@@ -18,7 +18,7 @@ Las dependencias se obtienen de la página web https://mvnrepository.com/artifac
   </denpendencies>
   ```
  
- Realizar el ejecutable.
+ Realizar el ejecutable en Eclipse
 
 En la carpeta del proyecto, botón derecho seleccionamos:  
 

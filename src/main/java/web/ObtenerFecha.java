@@ -12,14 +12,13 @@ import org.jsoup.nodes.Element;
 public class ObtenerFecha {
 
 	public static void main(String[] args) {
-		
+
 		try {
 			String urlStr = "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud"
 					+ "/profesionales/ofertas-de-empleo/oferta-de-empleo-publico"
 					+ "-puestos-base/convocatorias-oep-2025/cuadro-de-evolucion"
 					+ "/tecnicoa-especialista-en-informatica";
-			// Crear el cliente
-
+			// 1. Crear el cliente
 			HttpClient client = HttpClient.newHttpClient();
 			// 2. Crear la petición
 			HttpRequest request = HttpRequest.newBuilder().uri(new URI(urlStr)).GET().build();
